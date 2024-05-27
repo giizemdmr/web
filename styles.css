@@ -1,0 +1,630 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            transition: 0.2s ease;
+            list-style-type: none;
+        }
+
+        body {
+            background-image: url("images/resim1.png");
+        }
+
+        html {
+            overflow-x: hidden;
+            scroll-padding-top: 9rem;
+            scroll-behavior: smooth;
+        }
+
+        /*  Header start   */
+        .header hr {
+            margin-left: 0.5rem;
+            border: none;
+            border-left: 1px solid black;
+            height: 4rem;
+            width: 1px;
+        }
+
+
+        .header {
+            z-index: 999;
+            /*    position: fixed; */
+            display: flex;
+            top: 0;
+            box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0, 75);
+            transition: 1s;
+            margin: 50px;
+        }
+
+
+        .yazi {
+            margin-left: 0.5rem;
+            margin-right: 20rem;
+        }
+
+        .header h1 {
+            font-size: 4rem;
+        }
+
+        .navbar {
+
+            margin-top: 20px;
+            text-align: center;
+            justify-content: space-between;
+        }
+
+        .navbar a {
+            margin-left: 50px;
+        }
+
+        .header .navbar a {
+            margin: 0 1rem;
+            font-size: 1, 6rem;
+            color: #060403;
+            border-bottom: 0, 1rem solid transparent;
+        }
+
+        .header .navbar a:hover {
+            border-color: brown;
+            padding-bottom: 0, 5rem;
+        }
+
+        .son {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .button {
+            background-color: #060403;
+            border: none;
+            border-radius: 25px;
+            color: white;
+            padding: 15px 32px;
+            text-align: right;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 280px;
+            cursor: pointer;
+        }
+
+        /*  Header end   */
+
+        /*  Home start   */
+
+        .home {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .sol {
+            width: 40%;
+        }
+
+        .sag {
+            width: 40%;
+        }
+
+        .home .soru {
+            font-size: 70px;
+            font-weight: 700;
+            margin-left: 100px;
+        }
+
+        .bilgi {
+            margin-top: 20px;
+            margin-left: 100px;
+            font-weight: 100;
+            color: #3e3c3c;
+        }
+
+        .giris input[type="text"] {
+            padding: 12px 20px;
+            margin-top: 20px;
+            margin-left: 100px;
+            box-sizing: border-box;
+            width: 65%;
+            border: 2px solid #888;
+            border-radius: 5px;
+        }
+
+        .giris input[type="tel"] {
+            padding: 12px 20px;
+            margin-left: 100px;
+            margin-top: 15px;
+            box-sizing: border-box;
+            width: 65%;
+            border: 2px solid #888;
+            border-radius: 5px;
+        }
+
+        input:focus {
+            outline: inline;
+            border: 1px solid #eee;
+            border-left: 3px solid #888;
+        }
+
+        .button2 {
+            background-color: #060403;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            margin-top: 15px;
+            margin-left: 100px;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            width: 65%;
+        }
+
+        /* .resim {
+            margin-left: 700px;
+            display: flex;
+        } */
+
+        img {
+            width: 650px;
+            height: 450px;
+        }
+
+
+        /*  Home end   */
+
+        /* Teklif al start */
+        .teklifal {
+            text-align: center;
+            margin-top: 230px;
+            background-color: whitesmoke;
+            transition: 0.5s;
+        }
+
+        .teklifal h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .teklifal h2 {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+
+        .teklifal p {
+            color: #3e3c3c;
+        }
+
+
+        .yazilim {
+            border: 1px solid #060403;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-bottom: 20%;
+            margin-top: 5%;
+            border-radius: 45px;
+            background-color: white;
+            box-shadow: 0 1px 3px 0 rgba(81, 77, 77, 0.1);
+        }
+
+        .yazilim .button3 {
+            background-color: #060403;
+            border: none;
+            border-radius: 22px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            width: 150px;
+        }
+
+        /* Teklif al end */
+
+
+        /* Hakkımızda start */
+
+        .hakkimizda {
+            margin-left: 100px;
+        }
+
+        .hakkimizda h1 {
+            margin-bottom: 25px;
+        }
+
+        .hakkimizda h2 {
+            margin-bottom: 4px;
+        }
+
+        .hakkimizda p {
+            padding: 2.5px;
+        }
+
+        .deneme {
+            display: block;
+            margin-left: 100px;
+            margin-top: 30px;
+        }
+
+        .deneme h2 {
+            margin-top: 25px;
+        }
+
+        #logo1 {
+            margin-right: 15px;
+            color: white;
+            background-color: #060403;
+            font-size: 32px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .deneme i:last-child {
+            margin-right: 15px;
+            background-color: orange;
+            font-size: 32px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .ayir {
+            display: flex;
+        }
+
+        .resim2 {
+            margin-left: 300px;
+            margin-bottom: 200px;
+            z-index: 1;
+            position: relative;
+        }
+
+        .resim2 img {
+            width: 350px;
+            height: 570px;
+            transition: 0.5s;
+        }
+
+        .sagtaraf {
+            display: flex;
+        }
+
+        .check {
+            z-index: 2;
+            position: relative;
+        }
+
+        .check li {
+            margin-bottom: 10px;
+            font-family: "Font Awesome 6 Pro";
+            border: 1px solid black;
+            border-radius: 12px;
+        }
+
+        /* Hakkımızda end */
+
+        /* Yazılım süreci hakkında start */
+
+        .sürechakkinda {
+            display: flex;
+            background-image: linear-gradient(90deg, #282828 40%, #e2e8f0 0);
+            width: 100%;
+            height: 500px;
+        }
+
+        .resim3 img {
+            margin-left: 100px;
+        }
+
+        .resim3 {
+            width: 400px;
+            height: 400px
+        }
+
+        .sag2 {
+            margin-top: 50px;
+            margin-left: 500px;
+        }
+
+        .sag2 h4 {
+            font-size: 23px;
+        }
+
+        .sag2 h2 {
+            font-size: 40px;
+        }
+
+        .alt {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .sag2 p {
+            color: rgb(78, 75, 75);
+
+        }
+
+        .yan {
+            display: flex;
+        }
+
+        .icon1 {
+            border: 1px solid black;
+            border-radius: 7px;
+            padding: 7px;
+            text-align: center;
+            background-color: #060403;
+            color: white;
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+            margin-top: 20px;
+        }
+
+        .icon2 {
+            border: 1px solid black;
+            border-radius: 7px;
+            padding: 7px;
+            text-align: center;
+            background-color: #b10101;
+            color: white;
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+        }
+
+        /* Yazılım süreci hakkında end */
+
+        /* İletişim formu start */
+        .iletisim {
+            background-color: #282828;
+            width: 100%;
+            height: 700px;
+            display: flex;
+        }
+
+        .iletisimf {
+            margin-left: 100px;
+            margin-top: 90px;
+        }
+
+        .iletisimf h3 {
+            color: orange;
+            font-size: 20px;
+        }
+
+        .iletisimf h1 {
+            font-size: 70px;
+            color: white;
+        }
+
+        .bosluk {
+            margin-top: 50px;
+        }
+
+        .iletisimf p {
+            font-size: 25px;
+            color: white;
+        }
+
+        .form1 {
+            background-color: whitesmoke;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 400px;
+            height: 520px;
+            text-align: center;
+            margin-left: 100px;
+            margin-top: 90px;
+        }
+
+
+        .form1 input {
+            width: 300px;
+            height: 45px;
+            border: 1px solid rgb(235, 222, 222);
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        input:focus {
+            outline: inline;
+            border: 1px solid #eee;
+            border-left: 3px solid #888;
+        }
+
+        .form1 textarea {
+            padding: 20px;
+            width: 300px;
+            height: 150px;
+            border: 1px solid rgb(235, 222, 222);
+            border-radius: 15px;
+        }
+
+        .form2 {
+            padding: 30px;
+
+        }
+
+        .form1 button {
+            background-color: #060403;
+            color: white;
+            width: 115px;
+            height: 50px;
+            border-radius: 7px;
+            margin-top: 10px;
+        }
+
+        /* İletişim formu end */
+
+        /* nasıl çalışır start */
+        .yazi2 {
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .yazi2 h1 {
+            font-size: 50px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .yazi2 h3 {
+            font-size: 35px;
+            color: #100a08;
+        }
+
+        .yazi2 p {
+            color: #3e3c3c;
+        }
+
+        .nasilcalisir {
+            display: flex;
+        }
+
+        .nasilcalisir .resim4 {
+            margin-left: 50px;
+            margin-top: 150px;
+            width: 500px;
+            height: 819px;
+        }
+
+        .adimlar .icon02 {
+            width: 60px;
+            height: 60px;
+            background-color: whitesmoke;
+            color: grey;
+            font-size: 40px;
+            border: 1px solid gray;
+            text-align: center;
+            border-radius: 15px;
+            padding: 10px;
+            margin-left: 320px;
+        }
+
+        .adimlar hr {
+            margin-left: 22rem;
+            border: none;
+            border-left: 1px dotted black;
+            height: 3.2rem;
+            width: 1px;
+        }
+
+        .adimlar {
+            display: flex;
+            margin-top: 80px;
+        }
+
+        .icon-content {
+            margin-left: 30px;
+        }
+
+        .icon-content span {
+            font-size: 18px;
+        }
+
+        .yerlestir {
+            display: flex;
+        }
+
+        /* nasıl çalışır end */
+
+        /* referanslar start */
+
+       
+
+        .button3 {
+            background-color: #060403;
+            border: none;
+            border-radius: 25px;
+            color: white;
+            padding: 15px 32px;
+            text-align: right;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 23px;
+            margin-left: 680px;
+            cursor: pointer;
+        }
+
+        .referans {
+            margin-top: 50px;
+            margin-bottom: 100px;
+            margin-left: 100px;
+            display: flex;
+            font-size: 25px;
+        }
+
+        .resimler {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .altresim {
+            margin-left: 40px;
+            margin-right: 40px;
+            width: 12%;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid rgb(181, 175, 175);
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-bottom: 40px;
+        }
+
+        .altresim img {
+            width: 100%;
+            height: 200px;
+            padding: 30px;
+            overflow: hidden;
+            transition: all .5s ease-in-out;
+            cursor: pointer;
+        }
+
+        .altresim:hover img {
+            transform: scale(1.1);
+        }
+
+        /* referanslar end */
+
+
+        /*sayfa sonu start */
+
+        .header2 hr {
+            margin-left: 0.5rem;
+            border: none;
+            border-left: 1px solid black;
+            height: 3rem;
+            width: 1px;
+           float: left;
+        }
+
+        /* sayfa sonu end */
